@@ -1,131 +1,147 @@
 import { getAssetPath } from '@/app/lib/utils';
 import { Data } from '@/types/data';
-import { SiGithub, SiX } from '@icons-pack/react-simple-icons';
-import { Calendar, Mail, Send } from 'lucide-react';
+import { SiGithub, SiX, SiWantedly } from '@icons-pack/react-simple-icons';
 
 const data: Data = {
-  name: '山田 太郎',
-  globalName: 'Taro Yamada',
-  lastUpdatedAt: new Date(),
+  name: '伊賀本 衛',
+  globalName: 'Mamoru Igamoto',
+  lastUpdatedAt: new Date('2024-01-25'),
   status: {
     color: 'active',
     label: '転職活動中',
   },
-  location: '東京都',
-  bio: 'App Developer',
+  location: '岐阜県',
+  bio: 'フロントエンドエンジニア',
   summary:
     '私は情熱的なWebエンジニアで、ユーザー中心のインタラクティブなウェブサイトとアプリケーションの開発に特化しています。最新の技術トレンドを追い続け、クライアントのビジョンを実現するために、革新的で効率的なソリューションを提供することに力を入れています。チームワークとコミュニケーションを重視し、常にクオリティの高い作業を心がけています。趣味はプログラミング、読書、旅行です。',
   avatarUrl: getAssetPath() + '/locale/ja/profile.webp',
-  skills: ['Next.js', 'Tailwind CSS', 'TypeScript'],
+  skills: ['Vue.js', 'Nuxt.js','React', 'Next.js', 'TypeScript', 'PHP', 'Laravel', 'Xd', 'figma'],
   education: [
     {
-      school: '星海国際大学',
-      degree: 'マスター号 コンピュータサイエンス',
-      start: '2016',
-      end: '2018',
-    },
-    {
-      school: '北光テクノロジー学院',
-      degree: '学士号 情報技術',
-      start: '2012',
-      end: '2016',
+      school: '岐阜県立岐南工業高等学校',
+      degree: '電気科',
+      start: '2008',
+      end: '2011',
     },
   ],
   work: [
     {
-      company: '株式会社ブルーテック',
-      link: 'https://www.jmdp.or.jp',
+      company: '株式会社PIARY',
+      link: 'https://www.piary.jp/',
       badges: ['正社員'],
-      title: 'リードソフトウェアエンジニア',
-      start: '2020',
-      end: '現在',
-      description:
-        'チームを率いて新しいクラウドベースのソリューションを開発。効率的なワークフローを構築し、AWSを使用したスケーラブルなアプリケーションの設計と実装を行う。技術: Python, Django, React, AWS',
-    },
-    {
-      company: 'グリーンデータ株式会社',
-      link: 'https://www.jmdp.or.jp',
-      badges: ['業務委託'],
-      title: 'データサイエンティスト',
-      start: '2020',
-      end: '2019',
-      description:
-        'ビッグデータを活用して意思決定を支援する分析ツールの開発に貢献。機械学習とデータビジュアライゼーションを駆使して、顧客のビジネス成長を促進。技術: Python, R, SQL, Tableau',
-    },
-    {
-      company: 'サイバーセキュリティソリューションズ',
-      link: 'https://www.jmdp.or.jp',
-      badges: [],
-      title: 'シニアセキュリティエンジニア',
+      title: 'コーダー',
       start: '2018',
-      end: '2017',
-      description:
-        '企業のサイバーセキュリティを強化するための戦略の立案と実装。最先端の脅威検出ツールの開発に携わり、クライアントのデータ保護を確保。技術: Java, Python, Linux, ネットワークセキュリティ',
-    },
-  ],
-  contacts: [
-    {
-      label: 'example@example.com',
-      href: 'mailto:example@example.com',
-      icon: Mail,
-      toolbar: true,
+      end: '2020',
+      description: `- 事業内容: ブライダル用品の通信販売
+      - 業務内容: WordPressで構築されたECサイトの保守、新規ページのコーディング、管理システムの機能追加
+      - 業務内容詳細: コーダーとして入社し、実務を通してコーディングの基礎を身につけ、徐々にスキルアップし管理システムの機能追加なども担当しました。
+      - 使用技術: HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter`,
     },
     {
-      label: 'DMする',
-      href: 'https://twitter.com/JMDP1789',
-      icon: SiX,
-      toolbar: true,
+      company: '株式会社シェアリングテクノロジー',
+      link: 'https://www.sharing-tech.co.jp/',
+      badges: ['正社員'],
+      title: 'フロントエンドエンジニア',
+      start: '2020',
+      end: '2021',
+      description: `- 事業内容: 暮らしのお困りごとを対象としたWEB事業
+      - 業務内容: WordPressで構築されたサイトの保守、WordPressで構築されたサイトをNuxt.jsとWP REST APIを使用してリプレイス、インフラをAWSにリプレイス、Node.js、Puppeteerを使用し社内向けSEOチェックツールの開発、自動化
+      - 業務内容詳細: フロントエンドエンジニアとして入社し、WordPressのサイトの保守、ABテストや新規ページのコーディングを担当し、長年増改築を繰り返されたサイトのメンテナンス性の悪さに疑問を感じ、Nuxt.jsでのリプレイスを企画提案し、承認され、40サイト以上あるバーティカルサイトを構築しています。またインフラに詳しい方の協力を得てステージング環境、本番環境をAWSにリプレイス作業も行っています。
+      - 使用技術: HTML, CSS, SCSS, JavaScript, Vue.js, Nuxt.js, Node.js, AWS EC2, S3, Lambda, API Gateway, SES`,
     },
     {
-      label: 'オンラインミーティング',
-      href: 'https://cal.com',
-      icon: Calendar,
+      company: '株式会社PREVENT',
+      link: 'https://prevent.co.jp/',
+      badges: ['正社員'],
+      title: 'フロントエンドエンジニア',
+      start: '2021',
+      end: '2023',
+      description: `- 事業内容: 医療データ解析、生活習慣病の重症化予防支援事業等
+      - 業務内容: 生活習慣病の重症化予防支援サービスのフロントエンド開発、管理画面の開発
+      - 業務内容詳細: 管理画面の新規開発、既存のサービスの改修、新規サービスの開発を担当していました。新規開発ではステークホルダーとのコミュニケーションを重視し、要件定義からデザイン、開発、テスト、リリースまでを担当していました。
+      - 使用技術: Nuxt.js, TypeScript, Sass, React, Next.js, Tailwind CSS, Storybook, Jest, Testing Library, AWS Amplify, AWS AppSync, AWS Lambda, AWS S3, AWS CloudFront`,
     },
     {
-      label: 'フォーム',
-      href: 'https://tally.so',
-      icon: Send,
-    },
-  ],
-  links: [
-    {
-      label: 'XXX',
-      href: 'https://twitter.com/JMDP1789',
-      icon: SiX,
-    },
-    {
-      label: 'XXX',
-      href: 'https://twitter.com/JMDP1789',
-      icon: SiGithub,
+      company: '株式会社Arch',
+      link: 'https://arch-dx.co.jp/',
+      badges: ['正社員'],
+      title: 'フロントエンドエンジニア',
+      start: '2023',
+      end: '現在',
+      description: `- 事業内容: 建機レンタル品にかかわる業務のDX化
+      - 業務内容: 建設現場で使用される建機レンタル品に関するSaasやプラットフォームの開発
+      - 業務内容詳細: 新規サービスの開発を行っています。主にフロントエンドの開発とデザインを担当しています。
+      - 使用技術: React, TypeScript, mui, GraphQL, Vite, vitest, Turborepo Docker, Go, Laravel`,
     },
   ],
   projects: [
     {
-      title: 'EcoTrack',
-      techStack: [
-        'Side Project',
-        'JavaScript',
-        'React',
-        'Node.js',
-        'MongoDB',
-        'REST API',
-      ],
-      description:
-        'An environmental impact tracking app for individuals and small businesses',
-      link: {
-        label: 'ecotrack.app',
-        href: 'https://www.jmdp.or.jp',
-      },
+      title: 'comming soon',
+      description: 'comming soon',
+      techStack: ['comming soon'],
+    }
+    // {
+    //   title: 'EcoTrack',
+    //   techStack: [
+    //     'Side Project',
+    //     'JavaScript',
+    //     'React',
+    //     'Node.js',
+    //     'MongoDB',
+    //     'REST API',
+    //   ],
+    //   description:
+    //     'An environmental impact tracking app for individuals and small businesses',
+    //   link: {
+    //     label: 'ecotrack.app',
+    //     href: 'https://www.jmdp.or.jp',
+    //   },
+    // },
+    // {
+    //   title: 'CodeCollab',
+    //   techStack: ['Side Project', 'Python', 'Flask', 'WebSocket', 'Docker'],
+    //   description:
+    //     'A real-time collaborative coding platform for remote pair programming',
+    //   link: {
+    //     label: 'codecollab.io',
+    //     href: 'https://www.jmdp.or.jp',
+    //   },
+    // },
+  ],
+  contacts: [
+    // {
+    //   label: 'example@example.com',
+    //   href: 'mailto:example@example.com',
+    //   icon: Mail,
+    //   toolbar: true,
+    // },
+    {
+      label: 'DMする',
+      href: 'https://twitter.com/cochumo_1128',
+      icon: SiX,
+      toolbar: true,
+    },
+    // {
+    //   label: 'オンラインミーティング',
+    //   href: 'https://cal.com',
+    //   icon: Calendar,
+    // },
+    // {
+    //   label: 'フォーム',
+    //   href: 'https://tally.so',
+    //   icon: Send,
+    // },
+  ],
+  links: [
+    {
+      label: 'cochumo',
+      href: 'https://twitter.com/cochumo',
+      icon: SiGithub,
     },
     {
-      title: 'CodeCollab',
-      techStack: ['Side Project', 'Python', 'Flask', 'WebSocket', 'Docker'],
-      description:
-        'A real-time collaborative coding platform for remote pair programming',
-      link: {
-        label: 'codecollab.io',
-        href: 'https://www.jmdp.or.jp',
-      },
+      label: 'm_igamoto',
+      href: 'https://www.wantedly.com/id/m_igamoto',
+      icon: SiWantedly,
     },
   ],
 };
