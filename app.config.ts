@@ -3,13 +3,13 @@ export const AppConfig = {
   defaultLocale: 'ja',
   locales: [
     {
+      id: 'en',
+      label: 'English',
+    },
+    {
       id: 'ja',
       label: 'Japanese',
     },
-    // {
-    //   id: 'en',
-    //   label: 'English',
-    // },
   ],
   defaultTheme: 'system', // 'light' | 'dark' | 'system'
 
