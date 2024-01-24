@@ -1,6 +1,6 @@
 export const AppConfig = {
   host: process.env.GITHUB_PAGES_ORIGIN as string, // or Custom Domain
-  defaultLocale: 'en',
+  defaultLocale: 'ja',
   locales: [
     {
       id: 'en',
