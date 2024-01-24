@@ -137,7 +137,7 @@ const data: Data = {
   links: [
     {
       label: 'cochumo',
-      href: 'https://twitter.com/cochumo',
+      href: 'https://github.com/cochumo',
       icon: SiGithub,
     },
     {
