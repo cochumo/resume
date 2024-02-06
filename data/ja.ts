@@ -5,7 +5,7 @@ import { SiGithub, SiX, SiWantedly } from '@icons-pack/react-simple-icons';
 const data: Data = {
   name: '伊賀本 衛',
   globalName: 'Mamoru Igamoto',
-  lastUpdatedAt: new Date('2024-01-25'),
+  lastUpdatedAt: new Date('2024-02-06'),
   status: {
     color: 'active',
     label: '転職活動中',
@@ -17,7 +17,6 @@ const data: Data = {
     私のスキルセットには技術的な側面だけでなく、ユーザーエクスペリエンスに対する深い理解も含まれています。これまでの経験から得た知識を活かし、使いやすく魅力的なウェブアプリケーションを提供できる自信があります。
     プロフェッショナルな仕事においても私の趣味と特技が影響を与えています。ドライブが趣味で、数年前までサーキットでの走行経験があります。この経験から得た集中力や計画力を仕事にも生かし、新たな挑戦に積極的に取り組んでいます。`,
   avatarUrl: getAssetPath() + '/locale/ja/profile.jpg',
-  skills: ['Vue.js', 'Nuxt.js','React', 'Next.js', 'TypeScript', 'PHP', 'Laravel', 'Xd', 'figma'],
   education: [
     {
       school: '岐阜県立岐南工業高等学校',
@@ -49,7 +48,7 @@ const data: Data = {
       description: `- 事業内容: 医療データ解析、生活習慣病の重症化予防支援事業等
       - 業務内容: 生活習慣病の重症化予防支援サービスのフロントエンド開発、管理画面の開発
       - 業務内容詳細: 管理画面の新規開発、既存のサービスの改修、新規サービスの開発を担当していました。新規開発ではステークホルダーとのコミュニケーションを重視し、要件定義からデザイン、開発、テスト、リリースまでを担当していました。
-      - 使用技術: Nuxt.js, TypeScript, Sass, React, Next.js, Tailwind CSS, Storybook, Jest, Testing Library, AWS Amplify, AWS AppSync, AWS Lambda, AWS S3, AWS CloudFront`,
+      - 使用技術: Vue.js, Nuxt.js, TypeScript, Sass, React, Next.js, Tailwind CSS, Storybook, Jest, Testing Library, AWS Amplify, AWS AppSync, AWS Lambda, AWS S3, AWS CloudFront`,
     },
     {
       company: '株式会社シェアリングテクノロジー',
@@ -75,40 +74,96 @@ const data: Data = {
       - 業務内容詳細: コーダーとして入社し、実務を通してコーディングの基礎を身につけ、徐々にスキルアップし管理システムの機能追加なども担当しました。
       - 使用技術: HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter`,
     },
+    {
+      company: '別業界',
+      badges: ['正社員'],
+      title: '機械オペレーター',
+      start: '2011',
+      end: '2018',
+      description: '高校卒業後、トヨタ系の工場に務めていましたが、自分自身のスキルを持って仕事したい！と思い転職',
+    },
   ],
+  skills: ['Vue.js', 'Nuxt.js','React', 'Next.js', 'TypeScript', 'PHP', 'Laravel', 'Xd', 'figma'],
   projects: [
     {
-      title: 'comming soon',
-      description: 'comming soon',
-      techStack: ['comming soon'],
-    }
-    // {
-    //   title: 'EcoTrack',
-    //   techStack: [
-    //     'Side Project',
-    //     'JavaScript',
-    //     'React',
-    //     'Node.js',
-    //     'MongoDB',
-    //     'REST API',
-    //   ],
-    //   description:
-    //     'An environmental impact tracking app for individuals and small businesses',
-    //   link: {
-    //     label: 'ecotrack.app',
-    //     href: 'https://www.jmdp.or.jp',
-    //   },
-    // },
-    // {
-    //   title: 'CodeCollab',
-    //   techStack: ['Side Project', 'Python', 'Flask', 'WebSocket', 'Docker'],
-    //   description:
-    //     'A real-time collaborative coding platform for remote pair programming',
-    //   link: {
-    //     label: 'codecollab.io',
-    //     href: 'https://www.jmdp.or.jp',
-    //   },
-    // },
+      title: '建機レンタル品に関するサービス',
+      techStack: [
+        'TypeScript',
+        'React',
+        'Vite',
+        'Go',
+        'GraphQL',
+        'Laravel',
+        'Turborepo',
+        'figma'
+      ],
+      description:
+        '建設現場で使用される建機レンタル品に関するSaasやプラットフォームの開発およびUI,UXデザイン',
+    },
+    {
+      title: '生活習慣病の重症化予防支援サービス',
+      techStack: [
+        'TypeScript',
+        'Vue.js',
+        'Nuxt.js',
+        'Go',
+        'GraphQL',
+        'Xd'
+      ],
+      description:
+        '生活習慣病の重症化予防支援サービスのフロントエンド開発,UXデザイン',
+    },
+    {
+      title: '生活習慣病の重症度判定サービス',
+      techStack: [
+        'TypeScript',
+        'React',
+        'Vite',
+        'Python',
+        'AWS Amplify'
+      ],
+      description:
+        '自社の開催するウェビナーで案内する生活習慣病の重症度判定サービスのフロントエンド開発',
+    },
+    {
+      title: 'エンジニアブログ',
+      techStack: [
+        'TypeScript',
+        'React',
+        'Gatsby',
+      ],
+      description:
+        'エンジニアブログのフロントエンド開発',
+    },
+    {
+      title: 'WordPressサイトのリプレイス',
+      techStack: [
+        'TypeScript',
+        'Nuxt.js',
+        'WordPress REST API',
+        'AWS EC2',
+        'S3',
+        'Lambda',
+        'API Gateway',
+        'SES'
+      ],
+      description:
+        '管理の大変だったWordPressサイトをNuxt.jsでリプレイスし、インフラをAWSにリプレイス',
+    },
+    {
+      title: 'WordPressサイトの保守運用',
+      techStack: [
+        'HTML',
+        'CSS',
+        'JavaScript',
+        'jQuery',
+        'WordPress',
+        'PHP',
+        'CodeIgniter'
+      ],
+      description:
+        'WordPressで構築されたECサイトの保守、新規ページのコーディング、管理システムの機能追加',
+    },
   ],
   contacts: [
     // {
