@@ -28,28 +28,16 @@ const data: Data = {
   ],
   work: [
     {
-      company: '株式会社PIARY',
-      link: 'https://www.piary.jp/',
-      badges: ['正社員'],
-      title: 'コーダー',
-      start: '2018',
-      end: '2020',
-      description: `- 事業内容: ブライダル用品の通信販売
-      - 業務内容: WordPressで構築されたECサイトの保守、新規ページのコーディング、管理システムの機能追加
-      - 業務内容詳細: コーダーとして入社し、実務を通してコーディングの基礎を身につけ、徐々にスキルアップし管理システムの機能追加なども担当しました。
-      - 使用技術: HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter`,
-    },
-    {
-      company: '株式会社シェアリングテクノロジー',
-      link: 'https://www.sharing-tech.co.jp/',
+      company: '株式会社Arch',
+      link: 'https://arch-dx.co.jp/',
       badges: ['正社員'],
       title: 'フロントエンドエンジニア',
-      start: '2020',
-      end: '2021',
-      description: `- 事業内容: 暮らしのお困りごとを対象としたWEB事業
-      - 業務内容: WordPressで構築されたサイトの保守、WordPressで構築されたサイトをNuxt.jsとWP REST APIを使用してリプレイス、インフラをAWSにリプレイス、Node.js、Puppeteerを使用し社内向けSEOチェックツールの開発、自動化
-      - 業務内容詳細: フロントエンドエンジニアとして入社し、WordPressのサイトの保守、ABテストや新規ページのコーディングを担当し、長年増改築を繰り返されたサイトのメンテナンス性の悪さに疑問を感じ、Nuxt.jsでのリプレイスを企画提案し、承認され、40サイト以上あるバーティカルサイトを構築しています。またインフラに詳しい方の協力を得てステージング環境、本番環境をAWSにリプレイス作業も行っています。
-      - 使用技術: HTML, CSS, SCSS, JavaScript, Vue.js, Nuxt.js, Node.js, AWS EC2, S3, Lambda, API Gateway, SES`,
+      start: '2023',
+      end: '現在',
+      description: `- 事業内容: 建機レンタル品にかかわる業務のDX化
+      - 業務内容: 建設現場で使用される建機レンタル品に関するSaasやプラットフォームの開発
+      - 業務内容詳細: 新規サービスの開発を行っています。主にフロントエンドの開発とデザインを担当しています。
+      - 使用技術: React, TypeScript, mui, GraphQL, Vite, vitest, Turborepo Docker, Go, Laravel`,
     },
     {
       company: '株式会社PREVENT',
@@ -64,16 +52,28 @@ const data: Data = {
       - 使用技術: Nuxt.js, TypeScript, Sass, React, Next.js, Tailwind CSS, Storybook, Jest, Testing Library, AWS Amplify, AWS AppSync, AWS Lambda, AWS S3, AWS CloudFront`,
     },
     {
-      company: '株式会社Arch',
-      link: 'https://arch-dx.co.jp/',
+      company: '株式会社シェアリングテクノロジー',
+      link: 'https://www.sharing-tech.co.jp/',
       badges: ['正社員'],
       title: 'フロントエンドエンジニア',
-      start: '2023',
-      end: '現在',
-      description: `- 事業内容: 建機レンタル品にかかわる業務のDX化
-      - 業務内容: 建設現場で使用される建機レンタル品に関するSaasやプラットフォームの開発
-      - 業務内容詳細: 新規サービスの開発を行っています。主にフロントエンドの開発とデザインを担当しています。
-      - 使用技術: React, TypeScript, mui, GraphQL, Vite, vitest, Turborepo Docker, Go, Laravel`,
+      start: '2020',
+      end: '2021',
+      description: `- 事業内容: 暮らしのお困りごとを対象としたWEB事業
+      - 業務内容: WordPressで構築されたサイトの保守、WordPressで構築されたサイトをNuxt.jsとWP REST APIを使用してリプレイス、インフラをAWSにリプレイス、Node.js、Puppeteerを使用し社内向けSEOチェックツールの開発、自動化
+      - 業務内容詳細: フロントエンドエンジニアとして入社し、WordPressのサイトの保守、ABテストや新規ページのコーディングを担当し、長年増改築を繰り返されたサイトのメンテナンス性の悪さに疑問を感じ、Nuxt.jsでのリプレイスを企画提案し、承認され、40サイト以上あるバーティカルサイトを構築しています。またインフラに詳しい方の協力を得てステージング環境、本番環境をAWSにリプレイス作業も行っています。
+      - 使用技術: HTML, CSS, SCSS, JavaScript, Vue.js, Nuxt.js, Node.js, AWS EC2, S3, Lambda, API Gateway, SES`,
+    },
+    {
+      company: '株式会社PIARY',
+      link: 'https://www.piary.jp/',
+      badges: ['正社員'],
+      title: 'コーダー',
+      start: '2018',
+      end: '2020',
+      description: `- 事業内容: ブライダル用品の通信販売
+      - 業務内容: WordPressで構築されたECサイトの保守、新規ページのコーディング、管理システムの機能追加
+      - 業務内容詳細: コーダーとして入社し、実務を通してコーディングの基礎を身につけ、徐々にスキルアップし管理システムの機能追加なども担当しました。
+      - 使用技術: HTML, CSS, JavaScript, jQuery, PHP, CodeIgniter`,
     },
   ],
   projects: [
