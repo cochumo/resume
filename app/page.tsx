@@ -6,10 +6,10 @@ import { redirect } from 'next/navigation';
 const data = getData();
 
 export const metadata: Metadata = {
-  title: data.name,
+  title: 'resume',
   description: data.summary,
   openGraph: {
-    title: data.name,
+    title: 'resume',
     description: data.summary,
     images: [`/locale/${AppConfig.defaultLocale}/og-image.png`],
   },

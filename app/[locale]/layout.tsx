@@ -14,11 +14,11 @@ export async function generateMetadata() {
   const locale = getCurrentLocale();
 
   const meta: Metadata = {
-    title: data.name,
+    title: 'resume',
     description: data.summary,
     metadataBase: AppConfig.host ? new URL(AppConfig.host) : undefined,
     openGraph: {
-      title: data.name,
+      title: 'resume',
       description: data.summary,
       images: [`/locale/${locale}/og-image.png`],
     },
