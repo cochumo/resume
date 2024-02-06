@@ -30,7 +30,7 @@ const data: Data = {
       company: '株式会社Arch',
       link: 'https://arch-dx.co.jp/',
       badges: ['正社員'],
-      title: 'フロントエンドエンジニア, UI/UXデザイナー',
+      title: 'フロントエンドリードエンジニア, UI/UXデザイナー',
       start: '2023',
       end: '現在',
       description: `- 事業内容: 建機レンタル品にかかわる業務のDX化
