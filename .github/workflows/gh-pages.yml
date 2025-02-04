@@ -64,7 +64,7 @@ jobs:
           REPOSITORY_NAME: ${{ github.event.repository.name }}/ja
           GITHUB_PAGES_ORIGIN: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 
