@@ -19,7 +19,22 @@ export default async function Home({
   setStaticParamsLocale(locale);
 
   const t = await getI18n();
-  const data = getData();
+  let data;
+  
+  try {
+    data = getData();
+  } catch (error) {
+    console.error('Error getting data:', error);
+    // Fallback to Japanese data
+    const jaData = await import('@/data/ja');
+    data = jaData.default;
+  }
+
+  // If data is still undefined, use fallback
+  if (!data) {
+    const jaData = await import('@/data/ja');
+    data = jaData.default;
+  }
 
   return (
     <main className="container max-w-2xl pt-10 pb-16 sm:py-16 mb-6 print:mb-0 print:py-6 space-y-8">
