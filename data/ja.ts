@@ -5,7 +5,7 @@ import { SiGithub, SiX, SiWantedly } from "@icons-pack/react-simple-icons";
 const data: Data = {
   name: "伊賀本 衛",
   globalName: "Mamoru Igamoto",
-  lastUpdatedAt: new Date("2025-04-01"),
+  lastUpdatedAt: new Date("2026-09-01"),
   status: {
     color: "active",
     label: "転職活動中",
@@ -24,12 +24,24 @@ const data: Data = {
   ],
   work: [
     {
+      company: "株式会社スタメン",
+      link: "https://stmn.co.jp/",
+      badges: ["正社員"],
+      title: "フロントエンドエンジニア",
+      start: "2025",
+      end: "現在",
+      description: `- 事業内容: 「人と組織」の力を高める経営プラットフォーム「TUNAG」を中心としたSaaS事業を展開
+      - 業務内容: 主力SaaS「TUNAG」の開発
+      - 業務内容詳細: サービスの技術選定や開発を担当。最近はPJMと実装を兼務し、CXOレイヤーの責任者と共に機能開発を推進。直近では管理画面のUI/UX改善や、社内向けエージェントスキルの構築、サブサービス開発用のスターターキットの開発に取り組んでおり、現在はダッシュボードおよび社内データ基盤・データ分析基盤の構築を担当。
+      - 使用技術: Ruby on Rails, TypeScript, React, REST API, Vite, Hono, Vitest, Docker`,
+    },
+    {
       company: "株式会社Arch",
       link: "https://arch-dx.co.jp/",
       badges: ["正社員"],
       title: "フロントエンドリードエンジニア, UI/UXデザイナー",
       start: "2023",
-      end: "現在",
+      end: "2025",
       description: `- 事業内容: 建機レンタル品にかかわる業務のDX化
       - 業務内容: 建設現場で使用される建機レンタル品に関するSaasやプラットフォームの開発
       - 業務内容詳細: 新規サービスの技術選定や開発を行っています。主にフロントエンドの開発とデザインを担当しています。
