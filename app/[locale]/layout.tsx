@@ -17,6 +17,10 @@ export async function generateMetadata() {
     title: 'resume',
     description: data.summary,
     metadataBase: AppConfig.host ? new URL(AppConfig.host) : undefined,
+    robots: {
+      index: false,
+      follow: false,
+    },
     openGraph: {
       title: 'resume',
       description: data.summary,
