@@ -8,6 +8,13 @@ const data = getData();
 export const metadata: Metadata = {
   title: 'resume',
   description: data.summary,
+  robots: {
+    index: false,
+    follow: false,
+  },
+  verification: {
+    google: 'dMEr2ii9JNHrmmS_CI64yhp5IUu1vXVa3s1rXjW57-g',
+  },
   openGraph: {
     title: 'resume',
     description: data.summary,
